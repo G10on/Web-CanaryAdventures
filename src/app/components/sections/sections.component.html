@@ -1,0 +1,6 @@
+<section class="sections">
+  <article *ngFor="let section of data | async">
+      <h3>{{section.title}}</h3>
+      <p>{{section.content}}</p>
+  </article>
+</section>

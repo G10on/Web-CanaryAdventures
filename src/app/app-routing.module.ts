@@ -36,6 +36,7 @@ const routes: Routes = [
   { path: 'newsletter', component: NewsletterComponent},
   { path: 'comments', component: CommentSectionComponent},
   { path: 'commentsExample', component: CommentsExampleComponent},
+  
 
   { path: 'whattodo', component: WhattodoComponent },
   { path: 'home', component: HomeComponent},
